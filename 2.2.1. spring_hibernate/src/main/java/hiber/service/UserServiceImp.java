@@ -30,5 +30,5 @@ public class UserServiceImp implements UserService {
    public void  update(User user){userDao.update(user);}
    @Transactional
    @Override
-   public User search(String model,int series){return userDao.search(model, series);}
+   public List<User> search(String model,int series){return userDao.search(model, series);}
 }
