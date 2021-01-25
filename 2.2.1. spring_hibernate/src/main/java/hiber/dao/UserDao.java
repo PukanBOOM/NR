@@ -11,5 +11,5 @@ public interface UserDao {
 
    void update(User user);
 
-   List<User> search(String model,int series);
+   User search(String model,int series);
 }
