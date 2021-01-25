@@ -8,5 +8,5 @@ public interface UserService {
     void add(User user);
     List<User> listUsers();
     void update(User user);
-    List<User> search(String model,int series);
+    User search(String model,int series);
 }
